@@ -1,0 +1,25 @@
+
+    -help:
+        Shows list of available options;
+    -ipx:
+        Shows the abscesses of intersection points of curves;
+    -iter:
+        Shows number of iterations required for approximate solution
+        of equations when searching for intersection points;
+    -intg:
+        Shows calculated integrals;
+    -fl:
+        Shows list of available functions sets for testing (option -test)
+    -test r/i:
+        Tests calculation functions (use option -fl to see a list of available functions sets for testing)
+            Parameter "r" - tests function, that calculates roots.
+                Arguments: num a b
+                    num - number of functions set
+                    a - left segment border
+                    b - right segment border
+            Parameter "i" - tests function, that calculates integral.
+                Arguments: f a b
+                    f - curve number
+                    a - left segment border
+                    b - right segment border
+
